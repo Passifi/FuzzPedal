@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FuzzPedal - Standalone Plugin", "FuzzPedal_StandalonePlugin.vcxproj", "{F5726A03-335B-9F70-7C17-B559DE3CF49A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A73024E-792A-0D63-1D1C-B6AF6774D1FD} = {5A73024E-792A-0D63-1D1C-B6AF6774D1FD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FuzzPedal - VST3", "FuzzPedal_VST3.vcxproj", "{48F7C55D-07A7-4E4A-ACD3-7AA2643A946B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A73024E-792A-0D63-1D1C-B6AF6774D1FD} = {5A73024E-792A-0D63-1D1C-B6AF6774D1FD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FuzzPedal - Shared Code", "FuzzPedal_SharedCode.vcxproj", "{5A73024E-792A-0D63-1D1C-B6AF6774D1FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48F7C55D-07A7-4E4A-ACD3-7AA2643A946B}.Debug|x64.ActiveCfg = Debug|x64
+		{48F7C55D-07A7-4E4A-ACD3-7AA2643A946B}.Debug|x64.Build.0 = Debug|x64
+		{48F7C55D-07A7-4E4A-ACD3-7AA2643A946B}.Release|x64.ActiveCfg = Release|x64
+		{48F7C55D-07A7-4E4A-ACD3-7AA2643A946B}.Release|x64.Build.0 = Release|x64
+		{F5726A03-335B-9F70-7C17-B559DE3CF49A}.Debug|x64.ActiveCfg = Debug|x64
+		{F5726A03-335B-9F70-7C17-B559DE3CF49A}.Debug|x64.Build.0 = Debug|x64
+		{F5726A03-335B-9F70-7C17-B559DE3CF49A}.Release|x64.ActiveCfg = Release|x64
+		{F5726A03-335B-9F70-7C17-B559DE3CF49A}.Release|x64.Build.0 = Release|x64
+		{5A73024E-792A-0D63-1D1C-B6AF6774D1FD}.Debug|x64.ActiveCfg = Debug|x64
+		{5A73024E-792A-0D63-1D1C-B6AF6774D1FD}.Debug|x64.Build.0 = Debug|x64
+		{5A73024E-792A-0D63-1D1C-B6AF6774D1FD}.Release|x64.ActiveCfg = Release|x64
+		{5A73024E-792A-0D63-1D1C-B6AF6774D1FD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
